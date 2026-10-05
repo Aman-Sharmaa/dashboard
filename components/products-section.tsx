@@ -16,16 +16,7 @@ type ProductItem = {
   category?: string;
 };
 
-type ProductItem = {
-  name: string;
-  description: string;
-  image: string;
-  learnMore: string;
-  beta?: boolean;
-  externalLink?: boolean;
-  learnMoreText?: string;
-  category?: string;
-};
+
 
 interface ProductsSectionProps {
   title?: string;

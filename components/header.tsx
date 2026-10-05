@@ -52,6 +52,7 @@ export function Header() {
   const cmsSettings = useCmsSettings();
   const pathname = usePathname();
   const isRapydlaunchPage = pathname === "/rapydlaunch";
+  const isProductPage = pathname?.startsWith("/products") ?? false;
   const isDark = isRapydlaunchPage;
 
   const header = cmsSettings?.header ?? DEFAULT_HEADER;
