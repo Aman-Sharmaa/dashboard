@@ -1,0 +1,17 @@
+{
+    "name": "Webwrite - Innovation Studio",
+    "short_name": "Webwrite",
+    "description": "Born to create innovative products. Building modern SaaS & digital products.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/fav.png",
+            "sizes": "520x520",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
